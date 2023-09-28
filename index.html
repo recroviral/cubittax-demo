@@ -5,31 +5,34 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>CUBITTAX</title>
+  <title>Home-Cubittax</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/secondary-logo.png" rel="icon">
-  <link href="assets/img/secondary-logo.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Lumia
+  * Template Name: Anyar
   * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/lumia-bootstrap-business-template/
+  * Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -37,180 +40,277 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-
-      <div class="logo me-auto">
-        <h1><a href="index.html">CUBITTAX</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@cubittax.com</a>
+        <i class="bi bi-phone-fill phone-icon"></i> +1(514) 984-9709
       </div>
+      <div class="cta d-none d-md-block">
+        <a href="#contact" class="scrollto">Contact Us</a>
+      </div>
+    </div>
+  </div>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!-- <h1 class="logo"><a href="index.html">CUBITTAX</a></h1> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#services">Financial Consultation</a></li>
-              <li><a href="#services">Tax Prepatation</a></li>
-              <li><a href="#services">Payroll Services</a></li>
-              <li><a href="#services">Accouting & Bookkeeping</a></li>
+              <li><i class="bx"></i><a href="service-startup.html"> Business Start-up Services </a></li>
+              <li><i class="bx"></i><a href="service-personal-tax.html"> Personal Tax </a></li>
+              <li><i class="bx"></i><a href="service-corporate-tax.html"> Corporate Tax </a></li>
+              <li><i class="bx"></i><a href="service-gst-hst.html"> GST/HST Filing </a></li>
+              <li><i class="bx"></i><a href="service-gst-hst.html"> Accounting and Bookkeeping </a></li>
+              <li><i class="bx"></i><a href="service-payroll.html"> Payroll Services </a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-          <li><a class="nav-link scrollto" href="#Professionals">Professionals</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <div class="header-social-links d-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="container text-center text-md-left" data-aos="fade-up">
-      <h1>Welcome to <span>CUBITTAX</span></h1>
-      <h2>We are expert in providing the right solutions for your Accounts and Taxation</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+  <section id="hero" class="d-flex justify-content-center align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Welcome to <span>CubitTax</span></h2>
+          <p class="animate__animated animate__fadeInUp">Your Partner in Financial Success</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Expert Tax Services</h2>
+          <p class="animate__animated animate__fadeInUp">Solving Tax Challenges, One Solution at a Time</p>
+          <a href="#services" class="btn-get-started animate__animated animate__fadeInUp scrollto">Explore Services</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Trusted by Clients</h2>
+          <p class="animate__animated animate__fadeInUp">Join Our Growing List of Satisfied Clients</p>
+          <a href="#contact" class="btn-get-started animate__animated animate__fadeInUp scrollto">Contact Us</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+      </a>
+
     </div>
   </section><!-- End Hero -->
 
+
   <main id="main">
 
-    <!-- ======= What We Do Section ======= -->
-    <section id="what-we-do" class="what-we-do">
+    <!-- ======= Icon Boxes Section ======= -->
+    <section id="icon-boxes" class="icon-boxes">
       <div class="container">
 
-        <div class="section-title">
-          <h2>What We Do</h2>
-          <p>Provide Professional Taxation and Accounts Services</p>
-        </div>
-
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Account and Bookkeeping</a></h4>
-              <p>Account and Bookkeeping services for any business vertical and formation of entity</p>
+              <h4 class="title"><a href="#">Uncompromising Quality</a></h4>
+              <p class="description">Our unwavering commitment to delivering services and solutions of the highest quality to our valued clients.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Taxation, Payroll & Solving CRA Queries</a></h4>
-              <p>Taxation services including HST Return for all business verticals, Payroll services including Annual Payroll Fillings, Solving CRA Queries</p>
+              <h4 class="title"><a href="#">Innovative Insights</a></h4>
+              <p class="description">In our profession, comprehensive knowledge of legal aspects and their strategic application is fundamental.</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Audit, Due Diligence & Corporate Filings</a></h4>
-              <p>Audit service of all business entities and verticals, Due diligence report service, Corporate Filings</p>
+              <h4 class="title"><a href="#">Seasoned Expertise</a></h4>
+              <p class="description">Our team comprises qualified and experienced professionals dedicated to meeting our clients' needs with utmost professionalism.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4 class="title"><a href="#">Timely Excellence</a></h4>
+              <p class="description">We consistently exert effort to ensure the timely completion of assignments, as excellence is our hallmark.</p>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End What We Do Section -->
+    </section><!-- End Icon Boxes Section -->
 
-    <!-- ======= About Section ======= -->
+    <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
 
-        <div class="row">
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>CubitTax: Your Partner in Professional Excellence</p>
+        </div>
+
+        <div class="row content">
           <div class="col-lg-6">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <p>Our Beliefs:</p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Your Success is Our Business.</li>
+              <li><i class="ri-check-double-line"></i> We Embrace Change and Stay Current with Business and Legal Developments.</li>
+              <li><i class="ri-check-double-line"></i> Continuous Learning is Key; We Are Lifelong Students.</li>
+              <li><i class="ri-check-double-line"></i> Knowledge is Power; We Excel in Accounting and Fiscal Laws.</li>
+              <li><i class="ri-check-double-line"></i> Sharing Knowledge is Our Commitment.</li>
+              <li><i class="ri-check-double-line"></i> We Deliver on Time, Every Time.</li>
+            </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <h3>About Us</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            </ul>
-            <div class="row icon-boxes">
-              <div class="col-md-6">
-                <i class="bx bx-receipt"></i>
-                <h4>Corporis voluptates sit</h4>
-                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-              </div>
-              <div class="col-md-6 mt-4 mt-md-0">
-                <i class="bx bx-cube-alt"></i>
-                <h4>Ullamco laboris nisi</h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-              </div>
-            </div>
+            <p>Our Focus:</p>
+            <p>CubitTax is dedicated to providing professional services that prioritize client satisfaction through timely and effective delivery. 
+              We value open communication to meet clients' needs promptly. With our risk-based audit approach, we not only ensure compliance but also identify 
+              areas for enhancing business controls. Bridging the gap between client expectations and perception is our goal, achieved by defining client 
+              requirements and continuous feedback for service improvement.</p>
           </div>
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-5 align-items-stretch position-relative video-box" style='background-image: url("assets/img/why-us.jpg");' data-aos="fade-right">
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn mb-4"></a>
+          </div>
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
+
+            <div class="content">
+              <h3>Why Choose CubitTax?</h3>
+              <p>
+                At CubitTax, we offer more than just professional services; we provide solutions tailored to your success.
+              </p>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Personalized Service <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      We understand your unique needs and deliver tailored solutions that go beyond expectations.
+                    </p>
+                  </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="200">
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Expertise and Innovation <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Our team stays ahead in an ever-evolving landscape, combining expertise with innovative solutions to drive your success.
+                    </p>
+                  </div>
+                </li>
+
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Client-Centric Approach <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Your satisfaction is our priority. We maintain open communication, understand your goals, and consistently deliver on your expectations.
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container">
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+          <p>Discover Our Range of Expert Tax and Financial Services</p>
         </div>
 
         <div class="row">
-          <div class="col-md-6">
-            <div class="icon-box">
-              <i class="bi bi-briefcase"></i>
-              <h4><a href="#">Financial Consultation</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-lg-0">
+          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box">
               <i class="bi bi-card-checklist"></i>
-              <h4><a href="#">Tax Prepatation</a></h4>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+              <h4><a href="service-startup.html">Business Start-up Services</a></h4>
+              <p>Get expert assistance in forming businesses, registrations, and more.</p>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
               <i class="bi bi-bar-chart"></i>
-              <h4><a href="#">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+              <h4><a href="service-personal-tax.html">Personal Tax Planning</a></h4>
+              <p>Optimize your personal finances with our tax planning strategies.</p>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <i class="bi bi-binoculars"></i>
-              <h4><a href="#">Payroll Services</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <h4><a href="service-corporate-tax.html">Corporate Tax Planning and Structuring</a></h4>
+              <p>Enhance your corporate tax strategy and business structure for success.</p>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="400">
             <div class="icon-box">
               <i class="bi bi-brightness-high"></i>
-              <h4><a href="#">Magni Dolore</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4><a href="service-gst-hst.html">GST/HST Filing Compliances</a></h4>
+              <p>Stay compliant with GST/HST regulations for smooth business transactions.</p>
             </div>
           </div>
-          <div class="col-md-6 mt-4">
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="500">
             <div class="icon-box">
               <i class="bi bi-calendar4-week"></i>
-              <h4><a href="#">Accouting & Bookkeeping</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <h4><a href="service-accounting-bookkeeping.html">Accounting and Bookkeeping</a></h4>
+              <p>Ensure accurate financial detailing with cost-effective bookkeeping services.</p>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon-box">
+              <i class="bi bi-briefcase"></i>
+              <h4><a href="service-payroll.html">Payroll Services</a></h4>
+              <p>Streamline payroll management and focus on your core business operations.</p>
             </div>
           </div>
         </div>
@@ -218,197 +318,122 @@
       </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <!-- ======= Call To Action Section ======= -->
+    <section id="cta" class="cta">
       <div class="container">
 
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
+        <div class="row" data-aos="zoom-in">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Your Financial Success Awaits</h3>
+            <p>Experience the difference. Our unwavering commitment to excellence is your path to financial success. Let us guide you through the complexities of finance and taxation.</p>
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact">Contact Us</a>
+          </div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- End Call To Action Section -->
 
-    <!-- ======= Team Section ======= -->
-    <section id="Professionals" class="team">
-      <div class="container">
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Professionals</h2>
-          <p>We believe in the importance of building relationships and understanding what is important to you now and in the future. Every one of our partners is a dedicated and experienced tax specialist who provides hands-on tax advice to our clients on a daily basis.</p>
+          <h2>Frequently Asked Questions</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/team-1.jpg" alt="">
-              <h4>Hardik Patel</h4>
-              <span>Chief Executive Officer</span>
-              <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What are the key Canadian tax deadlines?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  In Canada, some important tax deadlines include the individual income tax return filing deadline, which is April 30th for most individuals. If you or your spouse or common-law partner are self-employed, the deadline is June 15th, but any taxes owed are still due on April 30th. The corporate tax return filing deadline for businesses is typically six months after the fiscal year-end.
+                </p>
               </div>
-            </div>
-          </div>
+            </li>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
-              <h4>Shreya Patel</h4>
-              <span>Product Manager</span>
-              <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What is the difference between RRSP and TFSA contributions?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Registered Retirement Savings Plan (RRSP) contributions are tax-deductible, and the investment income grows tax-deferred until withdrawal, typically during retirement. Tax-Free Savings Account (TFSA) contributions are not tax-deductible, but any investment income or capital gains earned within a TFSA are tax-free upon withdrawal. TFSAs are more flexible for short-term savings goals, while RRSPs are designed for long-term retirement savings.
+                </p>
               </div>
-            </div>
-          </div>
+            </li>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/team-3.jpg" alt="">
-              <h4>Viral Patel</h4>
-              <span>CTO</span>
-              <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What tax credits are available for families in Canada?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Canada offers several tax credits and benefits for families, including the Canada Child Benefit (CCB), the Child Disability Benefit (CDB), and the Child Fitness Tax Credit. These programs provide financial assistance to families with children, especially those with lower incomes or children with disabilities. Additionally, there are tax credits like the Child Care Expense Deduction and the Adoption Expense Tax Credit.
+                </p>
               </div>
-            </div>
-          </div>
+            </li>
 
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What is the Goods and Services Tax (GST) in Canada?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  The Goods and Services Tax (GST) is a federal value-added tax in Canada. It is a 5% tax applied to most goods and services sold in Canada. Some provinces have harmonized their provincial sales tax with the GST, creating a Harmonized Sales Tax (HST). The HST rates vary by province. GST/HST registration is required for businesses with annual revenues exceeding a certain threshold.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What are the tax implications of selling a property in Canada?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  When you sell a property in Canada, you may be subject to capital gains tax on any profit earned from the sale. However, the sale of your primary residence is usually exempt from capital gains tax. For other properties, 50% of the capital gain is taxable. Proper record-keeping and understanding the principal residence rules can help minimize your tax liability when selling property in Canada.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section><!-- End Frequently Asked Questions Section -->
+
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
-      <div class="container">
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Contact Us</h2>
-          <p>We love our customers, so feel free to visit during normal business hours.</p>
         </div>
 
-        <div class="row mt-5 justify-content-center">
+        <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
 
-          <div class="col-lg-10">
-
-            <div class="info-wrap">
-              <div class="row">
-                <div class="col-lg-4 info">
-                  <i class="bi bi-geo-alt"></i>
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street<br>New York, NY 535022</p>
-                </div>
-
-                <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>info@cubittax.com
-                </div>
-
-                <div class="col-lg-4 info mt-4 mt-lg-0">
-                  <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 51
-                </div>
+          <div class="col-lg-5">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>1580 Sandhurst Cir
+                  Scarborough, ON M1V 2L3
+                  Canada</p>
               </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>info@cubittax.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1(514) 984-9709</p>
+              </div>
+
             </div>
 
           </div>
 
-        </div>
+          <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
 
-        <div class="row mt-5 justify-content-center">
-          <div class="col-lg-10">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -431,6 +456,7 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
+
           </div>
 
         </div>
@@ -443,89 +469,97 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Subscribe to Our Newsletter</h4>
+            <p>Stay updated with the latest news and insights on Canadian taxation.</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="#" method="post">
+              <input type="email" name="email" placeholder="Enter your email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>    
+
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Toronto Office</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>USA Office</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>New Zealand Office</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>India Office</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#conatct">Contact Us</a></li>
+            </ul>
           </div>
 
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="service-startup.html">Business Start-up Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="service-personal-tax.html">Personal Tax </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="service-corporate-tax.html">Corporate Tax </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="service-gst-hst.html">GST/HST Filing </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="service-gst-hst.html">Accounting and Bookkeeping</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="service-payroll.html">Payroll Services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              1580 Sandhurst Cir <br>
+              Scarborough, ON M1V 2L3<br>
+              Canada <br><br>
+              <strong>Phone:</strong> +1(514) 984-9709<br>
+              <strong>Email:</strong> info@cubittax.com<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>About CubitTax</h3>
+            <p>CubitTax is your trusted partner in financial success. With over four years of experience, we specialize in providing expert solutions in areas such as Management Advisory, Taxation, Accounting, and more.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/cubittax" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
 
         </div>
       </div>
     </div>
 
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Lumia</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/lumia-bootstrap-business-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Anyar</span></strong>. All Rights Reserved
       </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
 
+  <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
