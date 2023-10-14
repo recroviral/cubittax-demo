@@ -147,7 +147,7 @@
       scrollto(this.hash)
     }
   }, true)
-
+  
   /**
    * Scroll with ofset on page load with hash links in the url
    */
@@ -281,45 +281,32 @@
 
 })()
 
-class MyHeader extends HTMLElement {
+class MyNavbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <header id="header" class="fixed-top d-flex align-items-center ">
-      <div class="container d-flex align-items-center justify-content-between">
-
-        <!-- <h1 class="logo"><a href="index.html">CUBITTAX</a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-            <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-            <li class="dropdown"><a href="index.html#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><i class="bx"></i><a href="service-personal-tax.html"> Personal Tax </a></li>
-                <li><i class="bx"></i><a href="service-corporate-tax.html"> Corporate Tax </a></li>
-                <li><i class="bx"></i><a href="service-startup.html"> Incorporation Services </a></li>
-                <li><i class="bx"></i><a href="service-accounting-bookkeeping.html"> Accounting and Bookkeeping </a></li>
-                <li><i class="bx"></i><a href="service-gst-hst.html"> GST/HST Filing </a></li>
-                <li><i class="bx"></i><a href="service-payroll.html"> Payroll Services </a></li>
-                <li><i class="bx"></i><a href="personal_tax_form.html" target="_blank"> Download Checklist Form </a></li>
-              </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="professionals.html">Professionals</a></li>
-            <li><a class="nav-link scrollto" href="resources1.html">Resources</a></li>
-            <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
-
-      </div>
-    </header>
+    <ul>
+      <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+      <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+      <li class="dropdown"><a href="index.html#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+        <ul>
+          <li><i class="bx"></i><a href="service-personal-tax.html"> Personal Tax </a></li>
+          <li><i class="bx"></i><a href="service-corporate-tax.html"> Corporate Tax </a></li>
+          <li><i class="bx"></i><a href="service-startup.html"> Incorporation Services </a></li>
+          <li><i class="bx"></i><a href="service-accounting-bookkeeping.html"> Accounting and Bookkeeping </a></li>
+          <li><i class="bx"></i><a href="service-gst-hst.html"> GST/HST Filing </a></li>
+          <li><i class="bx"></i><a href="service-payroll.html"> Payroll Services </a></li>
+          <li><i class="bx"></i><a href="personal-tax-form.html" target="_blank"> Download Checklist Form </a></li>
+        </ul>
+      </li>
+      <li><a class="nav-link scrollto" href="professionals.html">Professionals</a></li>
+      <li><a class="nav-link scrollto" href="resources1.html">Resources</a></li>
+      <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+    </ul>
     `
   }
 }
 
-customElements.define('my-header', MyHeader)
+customElements.define('my-navbar', MyNavbar)
 
 class MyFooter extends HTMLElement {
   connectedCallback() {
@@ -336,7 +323,7 @@ class MyFooter extends HTMLElement {
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="index">Home</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Services</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="professionals.html">Professionals</a></li>
