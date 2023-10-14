@@ -285,9 +285,9 @@ class MyNavbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <ul>
-      <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-      <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
-      <li class="dropdown"><a href="index.html#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+      <li><a class="nav-link scrollto" href="home">Home</a></li>
+      <li><a class="nav-link scrollto" href="home#about">About</a></li>
+      <li class="dropdown"><a href="home#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
           <li><i class="bx"></i><a href="service-personal-tax.html"> Personal Tax </a></li>
           <li><i class="bx"></i><a href="service-corporate-tax.html"> Corporate Tax </a></li>
@@ -298,9 +298,9 @@ class MyNavbar extends HTMLElement {
           <li><i class="bx"></i><a href="personal-tax-form.html" target="_blank"> Download Checklist Form </a></li>
         </ul>
       </li>
-      <li><a class="nav-link scrollto" href="professionals.html">Professionals</a></li>
+      <li><a class="nav-link scrollto" href="professionals">Professionals</a></li>
       <li><a class="nav-link scrollto" href="resources1.html">Resources</a></li>
-      <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+      <li><a class="nav-link scrollto" href="home#contact">Contact</a></li>
     </ul>
     `
   }
@@ -317,18 +317,18 @@ class MyFooter extends HTMLElement {
           <div class="row">
 
             <div class="col-lg-3 col-md-6 footer-links">
-              <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+              <a href="home" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="index">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="professionals.html">Professionals</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="home">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="home#about">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="home#services">Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="professionals">Professionals</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="resources1.html">Resources</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="index.html#contact">Contact Us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="home#contact">Contact Us</a></li>
               </ul>
             </div>
 
