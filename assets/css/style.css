@@ -105,60 +105,6 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-  height: 60px;
-  padding: 0;
-  font-size: 14px;
-  transition: all 0.5s;
-  overflow: hidden;
-  color: rgba(255, 255, 255, 0.8);
-  z-index: 996;
-}
-
-#topbar.topbar-scrolled {
-  top: -60px;
-}
-
-#topbar .contact-info a {
-  line-height: 0;
-  color: rgba(255, 255, 255, 0.8);
-  transition: 0.3s;
-}
-
-#topbar .contact-info a:hover {
-  text-decoration: underline;
-}
-
-#topbar .contact-info i {
-  color: #f6b024;
-  line-height: 0;
-  margin-right: 5px;
-}
-
-#topbar .contact-info .phone-icon {
-  margin-left: 15px;
-}
-
-#topbar .cta {
-  background: transparent;
-}
-
-#topbar .cta a {
-  color: #fff;
-  background: #f6b024;
-  padding: 6px 24px 8px 24px;
-  display: inline-block;
-  transition: 0.3s;
-  border-radius: 50px;
-}
-
-#topbar .cta a:hover {
-  background: #f1a40a;
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -470,7 +416,7 @@ h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.avif") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -659,7 +605,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 140px 0;
-  background: url("../img/about-bg.png") top center no-repeat;
+  background: url("../img/about-bg.avif") top center no-repeat;
   position: relative;
 }
 
@@ -1235,7 +1181,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background: url("../img/contact-bg.png") left center no-repeat;
+  background: url("../img/contact-bg.avif") left center no-repeat;
   position: relative;
 }
 
@@ -1815,7 +1761,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #05579e;
+  background: #f1f8ff;
   padding: 0 0 0px 0;
   color: #fff;
   font-size: 14px;
@@ -1929,15 +1875,5 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 0px;
-}
-
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-}
-
-#footer .credits a {
-  color: #f6b024;
+  color: #000;
 }

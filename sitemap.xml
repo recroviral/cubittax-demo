@@ -8,56 +8,31 @@
    <url>
       <loc>https://www.cubittax.com/service-accounting-bookkeeping.html</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
+      <priority>0.8</priority>
    </url>
    <url>
       <loc>https://www.cubittax.com/service-corporate-tax.html</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
+      <priority>0.8</priority>
    </url>
    <url>
       <loc>https://www.cubittax.com/service-gst-hst.html</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
+      <priority>0.8</priority>
    </url>
    <url>
       <loc>https://www.cubittax.com/service-payroll.html</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
+      <priority>0.8</priority>
    </url>
    <url>
       <loc>https://www.cubittax.com/service-personal-tax.html</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
+      <priority>0.8</priority>
    </url>
    <url>
       <loc>https://www.cubittax.com/service-startup.html</loc>
       <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-   </url>
-   <url>
-      <loc>https://www.cubittax.com/resources1.html</loc>
-      <changefreq>weekly</changefreq>
       <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.cubittax.com/resources2.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.cubittax.com/resources3.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.cubittax.com/professionals.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://www.cubittax.com/thankyou.html</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
    </url>
 </urlset>
