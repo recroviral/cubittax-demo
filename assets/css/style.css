@@ -416,7 +416,7 @@ h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/hero-bg.avif") top center;
+  background: url("../img/hero-bg1.jpg") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -605,7 +605,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 140px 0;
-  background: url("../img/about-bg.avif") top center no-repeat;
+  background: url("../img/about-bg.png") top center no-repeat;
   position: relative;
 }
 

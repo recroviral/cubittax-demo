@@ -7,7 +7,7 @@ class MyFooter extends HTMLElement {
           <div class="row">
 
             <div class="col-lg-3 col-md-6 footer-links">
-              <a href="home" class="logo"><img src="assets/img/logo.avif" alt="" class="img-fluid"></a>
+              <a href="home" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
@@ -41,7 +41,7 @@ class MyFooter extends HTMLElement {
                 </div>
                 <a href="https://www.facebook.com/profile.php?id=61551560356682" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
                 <a href="https://www.instagram.com/cubittax" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/cubit-tax" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/cubittax" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
           </div>
