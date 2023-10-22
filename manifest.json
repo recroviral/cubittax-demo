@@ -1,0 +1,16 @@
+{
+    "name": "Cubit Tax",
+    "short_name": "Cubittax",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#003595",
+    "background_color": "#ffffff",
+    "icons": [
+      {
+        "src": "assets/img/logo.webp",
+        "sizes": "240x120",
+        "type": "image/webp"
+      }
+    ]
+}
+  
