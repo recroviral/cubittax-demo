@@ -15,7 +15,7 @@ class MyFooter extends HTMLElement {
               <ul>
                 <li><i class="bx bx-chevron-right"></i> <a href="home">Home</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="home#about">About us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="home#services">Services</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="home#services">Practice Area</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="professionals">Professionals</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="resources1.html">Resources</a></li>
                 <li><i class="bx bx-chevron-right"></i> <a href="home#contact">Contact Us</a></li>
