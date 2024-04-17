@@ -136,16 +136,17 @@
   <script src="assets/js/main.js"></script>
 
   <!-- PDF.js -->
-  <script src="pdfjs/build/pdf.js"></script>
-  <script src="pdfjs/web/viewer.js"></script>
+  assets/pdf.js-master/src
+  <script src="assets/pdf.js-master/src/pdf.js"></script>
+  <script src="assets/pdf.js-master/web/viewer.js"></script>
   <script>
     // URL to your PDF document
     var pdfUrl = 'assets/pdf/Personal_Tax_Form.pdf';
 
     // PDF.js configuration
-    var pdfjsLib = window['pdfjs-dist/build/pdf'];
+    var pdfjsLib = window['assets/pdf.js-master/src/pdf'];
 
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/build/pdf.worker.js';
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'assets/pdf.js-master/src/pdf.worker.js';
 
     // PDF viewer options
     var viewerOptions = {
