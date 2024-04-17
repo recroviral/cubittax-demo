@@ -29,6 +29,32 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    /* Add custom styles here to match PlatoForms widget */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #pdfViewer {
+      width: 100%;
+      height: 800px; /* Adjust height as needed */
+      background-color: #f0f0f0; /* Background color */
+    }
+
+    .pdfViewer .page {
+      box-shadow: none;
+      border: none;
+    }
+
+    .pdfViewer .page canvas {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 10px auto;
+      display: block;
+    }
+  </style>
   
 </head>
 
@@ -82,7 +108,9 @@
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
         <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
-         <div class="plato-form-widget" data-options="id:frigw64hy2b;width:100%;height:0;host:form.platoforms.com/"></div><div id="frigw64hy2b-loading-msg"><p>Loading the Form...</p></div> <script type="text/javascript"> (function(d, v){ var s = d.getElementsByTagName(v)[0], p = s.parentNode, e = d.createElement(v); e.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'static.platoforms.com/assets/dist/formbuilder.js?v=15'; p.insertBefore(e, s); })(document, 'script'); </script>
+          <!-- PDF Viewer Section -->
+          <div id="pdfViewer"></div>
+          <!-- End PDF Viewer Section -->
         </div>
       </div>
     </section><!-- End Contact Section -->
@@ -107,6 +135,30 @@
   <script src="assets/js/footer.js"></script>
   <script src="assets/js/main.js"></script>
 
+  <!-- PDF.js -->
+  <script src="pdfjs/build/pdf.js"></script>
+  <script src="pdfjs/web/viewer.js"></script>
+  <script>
+    // URL to your PDF document
+    var pdfUrl = 'assets/pdf/Personal_Tax_Form.pdf';
+
+    // PDF.js configuration
+    var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdfjs/build/pdf.worker.js';
+
+    // PDF viewer options
+    var viewerOptions = {
+      container: document.getElementById('pdfViewer'),
+    };
+
+    // Load PDF document
+    pdfjsLib.getDocument(pdfUrl).promise.then(function(pdfDoc) {
+      // Initialize PDF viewer
+      var pdfViewer = new pdfjsViewer.PDFViewer(viewerOptions);
+      pdfViewer.setDocument(pdfDoc);
+    });
+  </script>
 </body>
 
 </html>
